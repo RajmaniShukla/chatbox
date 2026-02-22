@@ -34,8 +34,8 @@ function get_messages() {
 function boot_chat() {
   var chatArea = $('#chatMsg');
 
-  // Load the messages every 5 seconds
-  setInterval(get_messages, 20000);s  
+  // Load the messages every 20 seconds
+  setInterval(get_messages, 20000);
 
   // Bind the keyboard event
   chatArea.bind('keydown', function(event) {
